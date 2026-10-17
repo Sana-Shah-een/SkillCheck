@@ -1,0 +1,185 @@
+.stApp {
+    background: linear-gradient(135deg, #0B1120 0%, #101B35 55%, #171533 100%);
+    color: #F1F5F9;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(11, 17, 32, 0.85);
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1400px;
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #080F1E, #111B33);
+    border-right: 1px solid #273858;
+}
+
+[data-testid="stSidebar"] * {
+    color: #DCE7F7;
+}
+
+h1, h2, h3 {
+    color: #F8FAFC !important;
+    font-weight: 700 !important;
+}
+
+h1 {
+    letter-spacing: -1px;
+}
+
+p, label, .stMarkdown {
+    color: #CBD5E1;
+}
+
+[data-testid="stCaptionContainer"] {
+    color: #94A3B8;
+}
+
+[data-testid="stAlert"] {
+    background: #142744;
+    border: 1px solid #315580;
+    border-radius: 12px;
+    color: #DBEAFE;
+}
+
+.stTextInput input,
+.stTextArea textarea {
+    background-color: #111E35 !important;
+    color: #F1F5F9 !important;
+    border: 1px solid #334B70 !important;
+    border-radius: 10px !important;
+}
+
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+
+.stTextInput input:focus,
+.stTextArea textarea:focus {
+    border-color: #60A5FA !important;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.18) !important;
+}
+
+[data-baseweb="select"] > div {
+    background-color: #111E35 !important;
+    border-color: #334B70 !important;
+    border-radius: 10px !important;
+}
+
+[data-baseweb="select"] * {
+    color: #F1F5F9 !important;
+}
+
+.stButton > button {
+    background: linear-gradient(100deg, #6366F1, #8B5CF6, #2563EB);
+    color: #FFFFFF !important;
+    border: 1px solid #818CF8;
+    border-radius: 10px;
+    font-weight: 700;
+    min-height: 44px;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(100deg, #4F46E5, #7C3AED, #0284C7);
+    border-color: #A5B4FC;
+    box-shadow: 0 4px 18px rgba(99, 102, 241, 0.25);
+}
+
+[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #172943, #101B30);
+    border: 1px solid #304767;
+    border-radius: 14px;
+    padding: 16px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #A9BEDA !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #67E8F9 !important;
+}
+
+[data-testid="stProgressBar"] > div {
+    background-color: #263751;
+    border-radius: 20px;
+}
+
+[data-testid="stProgressBar"] [role="progressbar"] {
+    background: linear-gradient(90deg, #34D399, #22D3EE, #60A5FA);
+    border-radius: 20px;
+}
+
+[data-testid="stCheckbox"] label {
+    color: #DCE7F7 !important;
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #2B4364;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.stDownloadButton > button {
+    background: linear-gradient(100deg, #0F766E, #0E7490);
+    color: #FFFFFF !important;
+    border: 1px solid #2DD4BF;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.stDownloadButton > button:hover {
+    background: linear-gradient(100deg, #115E59, #155E75);
+    border-color: #5EEAD4;
+}
+
+hr {
+    border-color: #2A3D5B !important;
+}
+
+a {
+    color: #7DD3FC !important;
+}
+
+.skill-card {
+    background: linear-gradient(145deg, #172943, #101B30);
+    border: 1px solid #304767;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.hero {
+    padding: 24px;
+    border: 1px solid #304767;
+    border-radius: 18px;
+    background: linear-gradient(120deg, #172943, #211B45);
+    margin-bottom: 20px;
+}
+
+.hero-tag {
+    color: #67E8F9;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #F8FAFC;
+    margin: 8px 0;
+}
+
+.hero-subtitle {
+    color: #B7C7DF;
+    font-size: 16px;
+}
