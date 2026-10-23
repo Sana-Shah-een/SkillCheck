@@ -51,6 +51,13 @@ job_role,required_skills
 
 `required_skills` should contain comma-separated skills for each job role.
 
+## Deploy to Vercel
+
+The Vercel entrypoint is `api/index.py`, which exposes the Streamlit page
+through Streamlit's ASGI application support. The included `vercel.json`
+routes requests to that entrypoint. Deploy the repository with the Vercel
+project's Python runtime enabled.
+
 ## Project files
 
 - `app.py` - Streamlit application
